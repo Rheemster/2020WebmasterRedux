@@ -1,0 +1,158 @@
+#title {
+    font-family: 'Odibee Sans', cursive;
+    text-decoration: none;
+    font-size: 45px;
+    background-color: #434343;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 101;
+}
+
+#header {
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    display: inline;
+    position: fixed;
+    width: 100%;
+    background-color:  white;
+    top: 0;
+
+    overflow: visible;
+    z-index: 100;
+}
+
+.nav {
+    display: inline;
+    color: black;
+    text-align: left;
+}
+
+.dropbtn {
+
+    background-color: white;
+    color: black;
+    font-family: 'Odibee Sans', cursive;
+
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+    margin: 0px 90px;
+}
+
+@media only screen and (max-width: 1040px) {
+    .dropdown {margin: 0px 50px;}
+}
+
+@media only screen and (max-width: 720px) {
+    .dropdown {margin: 0px 25px;}
+}
+
+@media only screen and (max-width: 625px) {
+    .dropdown {margin: 0px 10px;}
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: white}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #696969;
+}
+
+/*
+
+#header a{
+    text-decoration: none;
+}
+
+#header a#title{
+    display: block;
+    margin: 20px 48%;
+    color: white;
+    font-size: 45px;
+    width: 100%;
+}
+
+#header .nav{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#header .nav .nav-list{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+#header .nav .nav-list .cars:hover .popup-cars{
+    position: absolute;
+    display: block;
+}
+
+#header .nav .nav-list .cars:hover .popup-cars a{
+    display: block;
+    padding: 5px;
+}
+
+#header .nav .nav-list .popup-cars{
+    display: none;
+}
+
+#header .nav .nav-list .popup-cars a{
+    color: rgba(23, 93, 243, 0.87);
+    text-shadow: 5px white;
+    font-size: 16px;
+}
+
+#header .nav .nav-list .popup-cars a:hover{
+    color: white;
+}
+
+#header .nav .nav-list a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+}
+
+#header .nav .nav-list a:hover{
+    color: rgba(23, 93, 243, 0.87);
+    text-shadow: 5px white;
+    size: 20px;
+    /*margin 15px;*/

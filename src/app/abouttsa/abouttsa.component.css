@@ -1,0 +1,102 @@
+#body{
+    text-align: center;
+    background-image: url("../../assets/tsaSplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.filler{
+    
+    width: 100%;
+    height: 30px;
+}
+
+#body h3{
+    opacity: .7;
+    font-family: 'Oswald';
+    color: black;
+}
+
+#body h2{
+    opacity: .7;
+    font-family: 'Oswald';
+    color: black;
+}
+
+#body p{
+    opacity: .7;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin: 30px 20px;
+    font-size: 20px;
+    color: black; 
+}
+
+.description {
+    margin-top: 100px;
+    padding: 20px 5px;
+    background-color: white;
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+}
+
+.history {
+    background-color: white;
+    padding: 20px 5px;
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+
+.officers {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    display: inline;
+}
+
+.officer {
+    color: green;
+    padding: 10px;
+    background-color: white;
+    margin: 20px auto;
+    width: 200px;
+    height: 300px;
+}
+
+.zach-img {
+
+    background-image: url("../../assets/zach-img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.hayden-img {
+    background-image: url("../../assets/hayden-img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.pyae-img {
+    background-image: url("../../assets/pyae-img.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+.raheem-img {
+    background-image: url("../../assets/raheem-img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}

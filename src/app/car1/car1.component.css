@@ -1,0 +1,129 @@
+#body {
+	display: block;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+#body h2{
+	opacity: .7;
+    font-family: 'Oswald';
+    color: black;
+}
+
+#body p{
+	opacity: .7;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin: 30px 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: black; 
+}
+
+#body .img1 {
+	display: block;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image: url("../../assets/Car1-1.jpg");
+    background-size: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body .img2 {
+	display: block;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image: url("../../assets/Car1-2.jpg");
+    background-size: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body .description {
+	margin: 20px;
+	padding: 15px;
+}
+
+#body .learn-more {
+	display: inline;
+	text-align: center;
+	width: 140px;
+	background-color: #434343;
+	border-radius: 10%;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#body a {
+	text-decoration: none;
+	color: white;
+}
+
+#body .specs {
+	opacity: .7;
+	text-align: center;
+}
+
+#body .specs div{
+	width: 300px;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+}
+
+#body .spec1img {
+	padding: 50px;
+	width: 150px;
+	height: 150px;
+    background-color: white;
+    background-image: url("../../assets/horsepower.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#body .spec2img {
+	padding: 50px;
+	width: 150px;
+	height: 150px;
+    background-color: white;
+    background-image: url("../../assets/chargerate.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#body .spec3img {
+	padding: 50px;
+	width: 150px;
+	height: 150px;
+    background-color: white;
+    background-image: url("../../assets/milerange.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 1160px) {
+    #body .specs div{ 
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    	text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 1040px) {
+    .dropdown {margin: 0px 50px;}
+
+}
